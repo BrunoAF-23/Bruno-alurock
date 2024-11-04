@@ -1,0 +1,55 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "New Rocker", system-ui;
+    margin-bottom: 200px;
+}
+
+
+header{
+    color: #350587;
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: solid #0f0128;
+}
+
+.centro{
+    background: red;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+h1{
+    font-size: 60px;
+    margin-right: 360px;
+    color: #0f0128;
+}
+
+.vídeos-abaixo{
+    margin-top: 35px;
+}
+
+h2{
+    color: #350587;
+}
+
+.bandas img{
+    height: 250px;
+    opacity: 0.5;
+}
+
+.bandas img:hover{
+    opacity: 1.0;
+    border: 2px solid red;
+}
+
+.bandas{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
